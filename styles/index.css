@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+}
+
+main {
+    width: 100%;
+	height: 100vh;
+}
+
+.grid__container {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+    grid-gap: 20px;
+    width: 42,5%;
+    height: 40%;
+    padding: 15%;
+}
+
+.first {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    background: #007F5F;
+}
+
+.second {
+    grid-column: 2/3;
+    grid-row: 1/5;
+    background: #80B918;
+}
+
+.third {
+    grid-column: 3/3;
+    grid-row: 1/2;
+    background: #DDDF00;
+}
+
+.fourth {
+    grid-column: 1/2;
+    grid-row: 3/5;
+    background: #2B9348;
+}
+
+.fifth {
+    grid-column: 3/3;
+    grid-row: 2/4;
+    background: #EEEF20;
+}
+
+.sixth {
+    grid-column: 3/3;
+    grid-row: 4/5;
+    background: #FFFF3F;
+}
+
+.grid__container__two {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr;
+    grid-gap: 20px;
+    width: 42,5%;
+    height: 40%;
+    padding: 15%;
+}
+
+.seven {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background: #55A630;
+}
+
+.eight {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #AACC00;
+}
