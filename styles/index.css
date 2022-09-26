@@ -104,13 +104,13 @@ main {
 }
 
 .text  {
-    font-family: 'Helvetica Neue';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 64px;
     line-height: 78px;
+    padding: 5%;
     text-transform: uppercase;
-
     color: #000000;
     background: #9BC1BC;
 }
